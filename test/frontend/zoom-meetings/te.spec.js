@@ -12,4 +12,6 @@ test('te', async ({ page }) => {
  await page.locator('selector-that-has-tooltip').hover();
  const tooltip = page.locator('tooltip-box-selector');
  await expect(tooltip).toHaveText('Expected Tooltip Text');
+ HTMLDivElement;
+ history;
 });
